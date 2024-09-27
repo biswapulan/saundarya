@@ -25,7 +25,7 @@ function Login() {
       return handleError("email & password are required.");
     }
     try {
-      const url = "http://localhost:8080/auth/login";
+      const url = "https://saundarya-five.vercel.app/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
